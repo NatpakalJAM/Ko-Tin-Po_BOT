@@ -1,0 +1,6 @@
+{
+    "TOKEN": "YOUR_BOT_TOKEN",
+    "PREFIX": "YOUR_BOT_PREFIX",
+    "NAME": "YOUR_BOT_NAME",
+    "YouTube_API": "YOUR_YouTube_API_KEY"
+}

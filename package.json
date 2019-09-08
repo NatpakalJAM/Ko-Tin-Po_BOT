@@ -1,0 +1,30 @@
+{
+  "name": "cherpran-bot",
+  "version": "1.0.0",
+  "description": "Charprang bot dev by KPK",
+  "main": "Cherprang.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "discord-youtube-api": "^0.1.0",
+    "discord.js": "^11.4.2",
+    "ffmpeg-binaries": "^4.0.0",
+    "node-opus": "^0.3.1",
+    "opusscript": "0.0.6",
+    "youtube-dl": "^1.13.1",
+    "ytdl-core": "^0.29.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node bot.js"
+  },
+  "keywords": [
+    "chargrang-bot"
+  ],
+  "author": "KPK",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NatpakalK/Cherprang_BOT.git"
+  }
+}
