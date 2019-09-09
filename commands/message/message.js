@@ -13,18 +13,21 @@ module.exports = {
         var messageRecsive = message.content;
         var messageReply = '';
 
-        if (messageRecsive.match(/ให้ข้าดูซิ$/)) {
+        if (messageRecsive.match(/ให้ข้าดูซิ$/) || messageRecsive.match(/ให้ข้าดูสิ$/)) {
             messageReply = 'ข้าบอกแล้วไง ว่าข้าทำไม่เป็น~';
             message.reply(messageReply);
-        } else if (messageRecsive.match(/ซักทีเถอะน่า$/)) {
+        } else if (messageRecsive.match(/ซักทีเถอะน่า$/) || messageRecsive.match(/สักทีเถอะน่า$/)) {
             messageReply = 'ก็ได้ๆๆ เซ้าซี้จัง!';
             message.reply(messageReply);
-        } else if (messageRecsive.match(/^ได้เวลา$/)) {
-            message.delete();
+        } else if (messageRecsive.match(/ได้เวลา/)) {
+            // message.delete();
             messageReply = 'ได้เวลา ชงนมแล้ว!';
             message.channel.send('@everyone ' + messageReply);
         } else if (messageRecsive.match(/ฝนขิง/)) {
             messageReply = 'ครับ ฝนขิง';
+            message.channel.send(messageReply);
+        } else if (messageRecsive.match(/ได้รึยัง/) || messageRecsive.match(/ได้หรือยัง/)) {
+            messageReply = 'เริ่มได้ทันทีเลย!!';
             message.channel.send(messageReply);
         }
 
