@@ -1,8 +1,8 @@
 {
-  "name": "cherpran-bot",
+  "name": "ko-tin-po-bot",
   "version": "1.0.0",
-  "description": "Charprang bot dev by KPK",
-  "main": "Cherprang.js",
+  "description": "ko-tin-po bot dev by KPK",
+  "main": "bot.js",
   "dependencies": {
     "axios": "^0.18.0",
     "discord-youtube-api": "^0.1.0",
@@ -19,12 +19,13 @@
     "dev": "node bot.js"
   },
   "keywords": [
-    "chargrang-bot"
+    "discord-bot",
+    "ko-tin-po-bot"
   ],
   "author": "KPK",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NatpakalK/Cherprang_BOT.git"
+    "url": "https://github.com/NatpakalJAM/Ko-Tin-Po_BOT.git"
   }
 }
