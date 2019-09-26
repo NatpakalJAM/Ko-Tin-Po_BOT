@@ -1,31 +1,33 @@
 {
-  "name": "ko-tin-po-bot",
+  "name": "ko-tin-po_bot",
   "version": "1.0.0",
   "description": "ko-tin-po bot dev by KPK",
   "main": "bot.js",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.0",
     "discord-youtube-api": "^0.1.0",
-    "discord.js": "^11.4.2",
+    "discord.js": "^11.5.1",
     "ffmpeg-binaries": "^4.0.0",
-    "node-opus": "^0.3.1",
-    "opusscript": "0.0.6",
-    "youtube-dl": "^1.13.1",
-    "ytdl-core": "^0.29.1"
+    "youtube-dl": "^2.0.1",
+    "ytdl-core": "^0.29.6"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "install-peers": "^1.0.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node bot.js"
+    "test": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatpakalJAM/Ko-Tin-Po_BOT.git"
   },
   "keywords": [
-    "discord-bot",
-    "ko-tin-po-bot"
+    "discord-bot"
   ],
   "author": "KPK",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/NatpakalJAM/Ko-Tin-Po_BOT.git"
-  }
+  "bugs": {
+    "url": "https://github.com/NatpakalJAM/Ko-Tin-Po_BOT/issues"
+  },
+  "homepage": "https://github.com/NatpakalJAM/Ko-Tin-Po_BOT#readme"
 }
